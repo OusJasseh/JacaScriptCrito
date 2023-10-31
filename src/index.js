@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Components/Home/Home';
+import Home from './Components/Views/Home/Home';
 import Contact from './Components/Views/Contact';
 
 
