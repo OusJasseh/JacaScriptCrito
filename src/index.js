@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Components/Views/Home/Home';
-import Contact from './Components/Views/Contact';
+import Home from './Views/Home';
+import Contact from './Views/Contact';
 
 
 
