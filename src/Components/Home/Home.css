@@ -1,0 +1,108 @@
+
+.TopNav{
+    display: grid;
+    grid-template-areas: 'logoType ContactInfo SocialMedia'
+                         'logoType NavBar       Login';
+
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #F0EFE9;
+    width: 100%;
+    height: 120px;
+    padding: 10px;   
+}
+
+.TopMenu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #bdb8b8 1px solid;
+    margin-left: 100px;
+    margin-bottom: 35px;
+}
+
+.LogoType{
+    grid-area: logoType;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    padding-left: 300px;
+
+}
+
+.ContactInfo{
+    grid-area: ContactInfo;
+    display: flex;
+    height: 26px;
+    width: 685px;
+   
+
+    margin-top: 10px;   
+    align-items: start;
+    justify-content: start;
+}
+
+.ContactInfo .fa-phone-volume{
+    width: 190px;
+    height: 25px;
+    display: flex;
+    align-items: center; 
+    
+   
+    
+}
+
+.ContactInfo .fa-envelope-dot{
+    width: 190px;
+    height: 25px; 
+    display: flex;
+    align-items: center;  
+    padding-left: 10px;
+   
+}
+
+.icon{
+
+    font-size: 16px;
+    font-family: 'Inter' sans-serif;
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    padding:auto;
+    border-right: 1px #bdb8b8 solid ;
+}
+
+.ContactInfo .fa-envelope-dot .icon{
+    padding-right: 30px;
+}
+
+
+.ContactInfo .fa-location-dot{
+    width: 300px;
+    height: 25px; 
+    display: flex;
+    align-items: center;  
+    padding-left: 10px;
+}
+
+.ContactInfo .fa-location-dot .icon{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: start;
+    padding-left:10px;
+    width: 300px;
+    border-right:none;
+    
+}
+
+.TopNav .SocialMedia{
+    grid-area: SocialMedia;
+    display: flex;
+    justify-self: end;
+    align-items: middle;
+    width: 111px;
+    height:15px;
+    padding-bottom: 45px;
+}
+
+.TopNav .SocialMedia i{
+    margin-top: 15px;
+}
